@@ -2,5 +2,9 @@
     "files.associations": {
         "*.h": "c",
         ".clang-format": "yaml"
+    },
+    "files.exclude": {
+        ".cache/": true,
+        "build/": true
     }
 }
