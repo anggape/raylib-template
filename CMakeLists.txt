@@ -4,6 +4,8 @@ project(raylib-template
     VERSION 1.0.0
 )
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 add_subdirectory(thirdparty/raylib)
 
 add_executable(${PROJECT_NAME}
