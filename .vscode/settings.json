@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        ".clang-format": "yaml"
+    }
+}
