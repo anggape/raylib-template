@@ -2,3 +2,7 @@
 	path = thirdparty/raylib
 	url = https://github.com/raysan5/raylib.git
 	shallow = true
+[submodule "thirdparty/raygui"]
+	path = thirdparty/raygui
+	url = https://github.com/raysan5/raygui.git
+	shallow = true

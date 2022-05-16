@@ -14,3 +14,6 @@ add_executable(${PROJECT_NAME}
 target_link_libraries(${PROJECT_NAME}
     raylib
 )
+target_include_directories(${PROJECT_NAME} PUBLIC
+    thirdparty/raygui/src
+)
