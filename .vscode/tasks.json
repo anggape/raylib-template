@@ -3,9 +3,8 @@
     "tasks": [
         {
             "label": "build",
-            "command": "cmake",
+            "command": "./scripts/build.sh",
             "type": "shell",
-            "args": ["--build", "build"],
             "presentation": {
                 "reveal": "always"
             },
