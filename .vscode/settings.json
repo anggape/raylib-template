@@ -5,6 +5,11 @@
     },
     "files.exclude": {
         ".cache/": true,
-        "build/": true
+        "build/": true,
+        "scripts/": true,
+        "thirdparty/": true,
+        ".clang-format": true,
+        ".gitignore": true,
+        ".gitmodules": true
     }
 }
