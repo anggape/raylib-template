@@ -3,7 +3,7 @@
     "tasks": [
         {
             "label": "build",
-            "command": "./scripts/build.sh",
+            "command": "${workspaceFolder}/scripts/build.sh",
             "type": "shell",
             "presentation": {
                 "reveal": "always"
