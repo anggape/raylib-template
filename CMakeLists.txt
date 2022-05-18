@@ -6,7 +6,8 @@ project(raylib-template
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-add_subdirectory(thirdparty/raylib)
+include(cmake/CPM.cmake)
+CPMGH(raysan5/raylib 5ecc289)
 
 add_executable(${PROJECT_NAME}
     src/main.c
@@ -15,6 +16,5 @@ target_link_libraries(${PROJECT_NAME}
     raylib
 )
 target_include_directories(${PROJECT_NAME} PUBLIC
-    thirdparty/raygui/src
     include
 )
