@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
-project(raylib-template
+project(__raylib-template__
     LANGUAGES C CXX
     VERSION 1.0.0
 )

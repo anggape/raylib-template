@@ -5,7 +5,7 @@
 #include <string.h>
 
 int main(int argc, char **argv) {
-    InitWindow(720, 360, "sample");
+    InitWindow(720, 360, "__raylib-template__");
     SetExitKey(0);
 
     int dropdownBox000Active = 0;
