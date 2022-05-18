@@ -1,0 +1,12 @@
+format:
+    line_width: 80
+    tab_size: 4
+    separate_ctrl_name_with_space: true
+    separate_fn_name_with_space: true
+    line_ending: unix
+    command_case: upper
+    keyword_case: upper
+    always_wrap:
+        - add_executable
+        - add_library
+    enable_sort: true
